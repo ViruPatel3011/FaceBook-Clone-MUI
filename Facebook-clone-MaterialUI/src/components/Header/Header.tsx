@@ -166,7 +166,7 @@ export default function Header():JSX.Element {
   );
 
   // Media Queries for Header start
-  const isLargeScreen = useMediaQuery('(min-width:950px)');
+  const isLargeScreen = useMediaQuery('(min-width:801px)');
   const isIconSize = useMediaQuery('(max-width:1300px )');
   const hideUserName = useMediaQuery('(max-width:1150px )');
 
